@@ -48,6 +48,14 @@ jobs:
           # Presets
           set -x ; set +e
           #--------------#
+          #AjamX101
+          #Self
+          curl -qfksSL "https://snow-flint-rosemary.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://snow-flint-rosemary.glitch.me" -o "/dev/null" --max-time 5
+          #Check-Host.net
+          curl -qfksSL "https://check-host.net/check-http?host=snow-flint-rosemary.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
+          #da.gd
+          curl -qfksSL "https://da.gd/up/snow-flint-rosemary.glitch.me" --max-time 5
           #Orion0xff
           #Self
           curl -qfksSL "https://hilarious-elastic-wrist.glitch.me" -o "/dev/null" --max-time 5
