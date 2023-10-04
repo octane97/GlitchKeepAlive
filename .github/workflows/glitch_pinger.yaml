@@ -2,7 +2,7 @@ name: 🎏 Glitch Pinger 🏓🌊🔎
 on:
   workflow_dispatch: # Whenever manually run from actions-tab
   schedule:
-    - cron: "*/30 * * * *" #Every 30 Mins
+    - cron: "*/35 * * * *" #Every 35 Mins
 #------------------------------------------------------------------------------------#  
 jobs:
   Ping:
@@ -71,4 +71,30 @@ jobs:
           curl -qfksSL "https://check-host.net/check-http?host=boulder-material-rattlesnake.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
           #da.gd
           curl -qfksSL "https://da.gd/up/boulder-material-rattlesnake.glitch.me" --max-time 5
+          ##Externals
+          #https://glitch.com/@athakursc12
+          curl -qfksSL "https://imminent-rainy-tip.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://imminent-rainy-tip.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://check-host.net/check-http?host=imminent-rainy-tip.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://da.gd/up/imminent-rainy-tip.glitch.me" --max-time 5
+          #https://glitch.com/@bhusal0x1
+          curl -qfksSL "https://skitter-cloudy-licorice.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://skitter-cloudy-licorice.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://check-host.net/check-http?host=skitter-cloudy-licorice.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://da.gd/up/skitter-cloudy-licorice.glitch.me" --max-time 5
+          #https://glitch.com/@santaarie83
+          curl -qfksSL "https://wandering-clammy-marmoset.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://wandering-clammy-marmoset.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://check-host.net/check-http?host=wandering-clammy-marmoset.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://da.gd/up/wandering-clammy-marmoset.glitch.me" --max-time 5
+          #https://glitch.com/@nikeshsapkota977
+          curl -qfksSL "https://jeweled-glaze-fold.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://jeweled-glaze-fold.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://check-host.net/check-http?host=jeweled-glaze-fold.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://da.gd/up/jeweled-glaze-fold.glitch.me" --max-time 5
+          #https://glitch.com/@sapkota98nikesh
+          curl -qfksSL "https://neat-pyrite-koi.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://neat-pyrite-koi.glitch.me" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://check-host.net/check-http?host=neat-pyrite-koi.glitch.me" -H "Accept: application/json" -o "/dev/null" --max-time 5
+          curl -qfksSL "https://da.gd/up/neat-pyrite-koi.glitch.me" --max-time 5
         continue-on-error: true
